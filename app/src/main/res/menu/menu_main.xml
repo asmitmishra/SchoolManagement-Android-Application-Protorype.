@@ -1,0 +1,203 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mishr.scope_vit.MainActivity">
+
+    <item android:title="Faculty Section">
+
+        <menu>
+
+        <item
+            android:id="@+id/add_faculty_details"
+            android:title="Add Faculty Details"
+            app:showAsAction="never"
+            android:icon="@drawable/ic_faculty_add_icon"
+            />
+        <item
+            android:id="@+id/delete_faculty_details"
+            android:title="Delete Faculty Details"
+            app:showAsAction="never"
+            android:icon="@drawable/ic_delete_icon"
+            />
+        <item
+            android:id="@+id/update_faculty_details"
+            android:title="Update Faculty Details"
+            app:showAsAction="never"
+            android:icon="@drawable/ic_update_icon"
+            />
+
+        <item
+            android:id="@+id/search_faculty_details"
+            android:title="Search Faculty"
+            app:showAsAction="never"
+            android:icon="@drawable/ic_search_icon"
+            />
+        </menu>
+
+
+
+    </item>
+
+    <item android:title="Course Section">
+
+        <menu>
+
+            <item
+                android:id="@+id/add_course_details"
+                android:title="Add Course"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_course_add_icon"
+                />
+
+            <item
+                android:id="@+id/delete_course_details"
+                android:title="Delete Course"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_delete_icon"
+                />
+
+            <item
+                android:id="@+id/update_course_details"
+                android:title="Update Course"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_update_icon"
+                />
+
+
+        </menu>
+
+
+    </item>
+
+
+    <item android:title="Programs Offered">
+
+        <menu>
+
+            <item
+                android:id="@+id/add_programs_details"
+                android:title="Add Programs"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_course_add_icon"
+                />
+
+
+        </menu>
+
+    </item>
+
+
+    <item android:title="Department Section">
+
+        <menu>
+
+            <item
+                android:id="@+id/add_department_details"
+                android:title="Add Department Details"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_course_add_icon"
+                />
+
+            <item
+                android:id="@+id/delete_department_details"
+                android:title="Delete Department"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_delete_icon"
+                />
+
+            <item
+                android:id="@+id/update_department_details"
+                android:title="Update Department"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_update_icon"
+                />
+
+        </menu>
+
+    </item>
+
+
+    <item android:title="Students">
+
+        <menu>
+
+            <item
+                android:id="@+id/add_student_details"
+                android:title="Add Student Details"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_course_add_icon"
+                />
+
+            <item
+                android:id="@+id/update_student_details"
+                android:title="Update Student"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_update_icon"
+                />
+
+
+        </menu>
+
+
+    </item>
+
+
+
+    <item android:title="Specilization Courses">
+
+        <menu>
+
+            <item
+                android:id="@+id/add_specilization_details"
+                android:title="Add Specilization "
+                app:showAsAction="never"
+                android:icon="@drawable/ic_course_add_icon"
+                />
+
+            <item
+                android:id="@+id/delete_specilization_details"
+                android:title="Delete Specilization"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_delete_icon"
+                />
+
+            <item
+                android:id="@+id/update_specilization_details"
+                android:title="Update Specilization"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_update_icon"
+                />
+
+        </menu>
+
+    </item>
+
+
+    <item android:title="Research And Projects">
+
+        <menu>
+
+            <item
+                android:id="@+id/add_project_details"
+                android:title="Add Project "
+                app:showAsAction="never"
+                android:icon="@drawable/ic_course_add_icon"
+                />
+
+            <item
+                android:id="@+id/update_project_details"
+                android:title="Update project"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_update_icon"
+                />
+
+        </menu>
+
+    </item>
+
+
+
+
+
+
+</menu>
